@@ -7511,6 +7511,11 @@ input:focus {
         font-size: 11px; }
         .footer .footer_top .pages li a:hover {
           text-decoration: underline; }
+    .footer .footer_top .item_contact {
+      padding-left: 50px; }
+      @media (max-width: 991px) {
+        .footer .footer_top .item_contact {
+          padding-left: 15px; } }
     .footer .footer_top .phone {
       color: #b4b4b4;
       font-family: Arial;
@@ -7567,7 +7572,8 @@ input:focus {
     font-family: Arial;
     font-size: 11px;
     line-height: 33px;
-    font-weight: 400; }
+    font-weight: 400;
+    padding-top: 15px; }
     @media (max-width: 1199px) {
       .footer .footer_bottom .copy {
         line-height: 44px; } }
